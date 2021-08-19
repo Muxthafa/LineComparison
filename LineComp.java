@@ -33,7 +33,10 @@ public class LineComp {
 		sc.nextLine();
 		int len2 = linelength(x1,y1,x2,y2);
 		System.out.println("length of line 2: "+len2);
-		
+		if(len1 == len2)
+			System.out.println("The lines are equal!!");
+		else
+			System.out.println("Not equal!!");
 	}
 
 }
